@@ -28,7 +28,7 @@ function App() {
 
       <section>
         <div className='flex flex-row'>
-          <div className='w-3/5'>01</div>
+          <div className='w-3/5'>Table for the showing Leave Resuest</div>
 
 
           <div className='w-2/5'>

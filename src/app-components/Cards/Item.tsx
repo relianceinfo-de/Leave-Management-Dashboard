@@ -11,7 +11,7 @@ enum CardTypes {
 const CardComponent_MAPS: Record<CardTypes, string> = {
   [CardTypes.ELEVATED]: 'mb-3.5 px-4 py-5 bg-zinc-100 rounded-lg shadow flex flex-row items-center',
   [CardTypes.OUTLINED]: '',
-  [CardTypes.FILLED]: 'mb-3.5 pr-4 pt-4 pb-2.5 bg-neutral-100 flex flex-row items-center border border-violet-600',
+  [CardTypes.FILLED]: 'mb-3.5 pr-4 pt-4 pb-2.5 bg-neutral-100 flex flex-row items-center',
 };
 
 type CardsProps = {
