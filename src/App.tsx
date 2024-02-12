@@ -2,6 +2,8 @@ import { List, ListItem, ListItemPrefix, Avatar, Typography} from "@material-tai
 import Card from './app-components/Cards/Item';
 import { CardTypes } from './app-components/Cards/Item';
 import CardItems from './app-components/Cards/index';
+import LeaveRequest from './app-components/Cards/table';
+
 
 function App() {
  
@@ -26,10 +28,9 @@ function App() {
         </Card>
       </section>
 
-      <section>
+      <section className="pt-10 ">
         <div className='flex flex-row'>
-          <div className='w-3/5'>Table for the showing Leave Resuest</div>
-
+          <div className='w-3/5 mr-10'> <LeaveRequest/> </div>
 
           <div className='w-2/5'>
           
