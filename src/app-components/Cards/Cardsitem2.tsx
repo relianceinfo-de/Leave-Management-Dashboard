@@ -2,14 +2,13 @@
 import { FunctionComponent, ReactNode } from 'react';
 
 type CardItemsProps = {
-    Circle: string;
+    
     Title: string;
     Used: number;
     Available: number;
   };
   
   const CardItems: FunctionComponent<CardItemsProps> = function CardItem({
-    Circle,
     Title,
     Used,
     Available,
@@ -22,8 +21,7 @@ type CardItemsProps = {
 
         <div className='flex flex-row gap-8 mt-5'>
 
-            <div>{Circle}</div>
-
+            
             <div className='flex flex-col'>
                 <p >Available : {Available}</p>
                 <p >Used : {Used}</p> 
