@@ -2,7 +2,7 @@ import { Card, Typography } from "@material-tailwind/react";
  
 const TABLE_HEAD = ["Duration", "Type", "Days", "Status", ""];
  
-const TABLE_ROWS = [
+export const TABLE_ROWS = [
   {
     Duration: "APr 20 - Apr 21",
     Type: "Casusal Leave",

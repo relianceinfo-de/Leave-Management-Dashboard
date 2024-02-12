@@ -3,7 +3,7 @@ import { FunctionComponent, ReactNode } from 'react';
 
 type CardItemsProps = {
     Circle: string;
-    Title: string;
+    Title: ReactNode;
     Used: number;
     Available: number;
   };
@@ -17,7 +17,7 @@ type CardItemsProps = {
     return (
       <div className='flex flex-col'>
         <div className='flex justify-center'>
-          <h2>{Title}</h2>
+          <h2 className='font-bold'>{Title}</h2>
         </div>
 
         <div className='flex flex-row gap-8 mt-5'>
