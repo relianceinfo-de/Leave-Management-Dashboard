@@ -4,14 +4,14 @@ import { FunctionComponent, ReactNode } from 'react';
 type CardItemsProps = {
     
     Title: string;
-    Used: number;
-    Available: number;
+    Pending: number;
+    Approved: number;
   };
   
   const CardItems: FunctionComponent<CardItemsProps> = function CardItem({
     Title,
-    Used,
-    Available,
+    Pending,
+    Approved,
   }: CardItemsProps) {
     return (
       <div className='flex flex-col'>
@@ -23,8 +23,8 @@ type CardItemsProps = {
 
             
             <div className='flex flex-col'>
-                <p >Available : {Available}</p>
-                <p >Used : {Used}</p> 
+                <p >Approved : {Approved}</p>
+                <p >Pending : {Pending}</p> 
             </div>
 
         </div>

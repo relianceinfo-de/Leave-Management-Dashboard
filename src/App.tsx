@@ -21,19 +21,19 @@ function App() {
 
       <section className='flex flex-row gap-5 mt-5'>
       <Card CardsVariant={CardTypes.ELEVATED}> 
-        <CardItems Title={<h2 className="font-bold text-[#ff4dff]">Casual Leave</h2>} Circle={"10/04"} Used={4} Available = {3}/> 
+        <CardItems Title={<h2 className="font-bold text-[#ff4dff]">Casual Leave</h2>} Circle={"10/04"} Pending={4} Approved = {3}/> 
       </Card>
 
         <Card CardsVariant={CardTypes.ELEVATED}>
-          <CardItems Title={<h2 className="font-bold text-[#8080ff]">Annual Leave</h2>} Circle={"10/04"} Used={4} Available = {3}/> 
+          <CardItems Title={<h2 className="font-bold text-[#8080ff]">Annual Leave</h2>} Circle={"10/04"} Pending={4} Approved = {3}/> 
         </Card>
 
         <Card CardsVariant={CardTypes.ELEVATED}>
-           <CardItems Title={<h2 className="font-bold text-[#99ff99]">Sick Leave</h2>} Circle={"10/04"} Used={4} Available = {3}/>     
+           <CardItems Title={<h2 className="font-bold text-[#99ff99]">Sick Leave</h2>} Circle={"10/04"} Pending={4} Approved = {3}/>     
         </Card>
 
         <Card CardsVariant={CardTypes.ELEVATED}>
-          <CardItems Title={<h2 className="font-bold text-[#ffc0cb]">Maternity Leave</h2>} Circle={"10/04"} Used={4} Available = {3}/>     
+          <CardItems Title={<h2 className="font-bold text-[#ffc0cb]">Maternity Leave</h2>} Circle={"10/04"} Pending={4} Approved = {3}/>     
         </Card>
       </section>
 
@@ -46,29 +46,7 @@ function App() {
           <div className='w-3/5 mr-10'> <LeaveRequest/> </div>
           <div className='w-2/5 border rounded'>
           
-              {/* <Card CardsVariant={CardTypes.FILLED}>
-                <div className="flex flex-col px-5">
-                <div className="mb-5"> <h3>Who's On Leave</h3> </div>
-                    <List>
-                      <ListItem>
-                           <div className="flex flex-row w-1/6">
-                              <ListItemPrefix>
-                                <p>TK</p>
-                              </ListItemPrefix>
-                            </div>
-
-                <div className="w-5/6">
-                <Typography variant="h6" color="blue-gray">
-                  <p>Tejas Khanna </p>
-                </Typography>
-                <Typography variant="small" color="gray" className="font-normal">
-                    <p> Apr 20 . Casual Leave </p>
-                </Typography>
-                </div> 
-              </ListItem>
-              </List>
-              </div>
-            </Card> */}
+              
             <h3 className="font-semibold border-b pl-3 py-3">Who's On Leave?</h3>
             
             <div className="flex items-center gap-x-2 pl-3 mt-3">
