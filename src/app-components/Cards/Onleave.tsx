@@ -4,9 +4,6 @@ export const leaves = [
     {name:"Abdulmalik Abdulgaffar", day:"Feb 20", type:"Annual leave"},
 ]
 
-
-
-
 function Onleave() {
 
     return(
