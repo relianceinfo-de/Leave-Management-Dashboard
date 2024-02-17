@@ -1,5 +1,5 @@
 
-import { FunctionComponent, ReactNode } from 'react';
+import { FunctionComponent } from 'react';
 
 type CardItemsProps = {
     Title: string;

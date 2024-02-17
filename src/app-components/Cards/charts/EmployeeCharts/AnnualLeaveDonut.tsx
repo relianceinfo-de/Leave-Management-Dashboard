@@ -1,15 +1,14 @@
 import * as React from 'react';
-
 import {
     DonutChart,
-    //IDonutChartProps,
+   // IDonutChartProps,
     IChartProps,
     IChartDataPoint,
     DataVizPalette,
     getColorFromToken,
   } from '@fluentui/react-charting';
 
-function AnnualLeaveDonut(){
+function EmpAnnualLeave(){
 
     const points: IChartDataPoint[] = [
         { legend: 'Available', data: 50, color: getColorFromToken(DataVizPalette.color1), xAxisCalloutData: '2020/04/30' },
@@ -42,4 +41,4 @@ function AnnualLeaveDonut(){
   )
 }
 
-export default AnnualLeaveDonut
+export default EmpAnnualLeave

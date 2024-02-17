@@ -12,7 +12,7 @@ type CardItemsProps = {
   
   }: CardItemsProps) {
     return (
-      <div className='flex flex-col my-5'>
+      <div className='flex flex-col my-5 justify-center'>
         <div className='font-bold mb-5'>
           <h2>{Title}</h2>
         </div>
